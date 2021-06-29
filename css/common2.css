@@ -1,0 +1,155 @@
+@charset "UTF-8";
+.header_all {
+  background-color: rgb(255, 247, 247);
+  width: 100%;
+  position: relative;
+}
+
+.header_inner nav ul {
+  word-spacing: 50px;
+  text-align: center;
+  width: 100%;
+  padding:30px 0;
+  margin-right: 20px;
+}
+.header_inner nav ul li {
+  display: inline;
+
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+.header_inner nav ul li .color {
+  color: #ff8856;
+}
+.header_inner nav ul a:hover{
+  opacity: 0.5;
+}
+.top_inner {
+  width: 100%;
+  position: relative;
+  height: 600px;
+  background-image: url("../img/top.png");
+  text-align: center;
+}
+
+.top_inner img {
+  
+  width:80%;
+  height: auto;
+}
+.top_title {
+  width: 60%;
+  left: 22%;
+  top: 35%;
+  background-color:rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+.top_inner h1 {
+  font-size: 70px;
+  color: #ff8856;
+}
+
+.top_inner h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.top_inner p {
+  font-size: 20px;
+  color: #777;
+  position: relative;
+  top: 50px;
+}
+.section {
+  margin: 100px 0;
+}
+.contact {
+  margin-top: 10%;
+  border: solid 1px #555;
+  background-color: rgb(255, 248, 238);
+  position: relative;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+.contact h3 {
+  font-size: 50px;
+  color: #ff8856;
+  text-align: center;
+}
+.contact h3 small {
+  font-size: 20px;
+  color: #555;
+}
+
+.contact p {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+.contact .btn a {
+  text-align: center;
+  position: relative;
+  background:#ff8856;
+  padding: 20px 60px;
+  color: #fff;
+  font-weight: bold;
+}
+footer {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.footer_inner {
+  margin-right: 0;
+  float: right;
+  position:relative;
+  margin-left: 200px;
+  z-index: 1;
+  
+  top: 170px;
+  right: 40px;
+}
+.footer_inner img {
+  width: 100px;
+}
+.footer_inner p {
+  width: 150px;
+  font-size: 10px;
+}
+.footer_bg {
+  width: 100%;
+  float: right;
+  height: 300px;
+  background-color: rgb(255, 242, 242);
+  position: relative;
+  z-index: 0;
+}
+.footer_list ul {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  z-index: 1;
+}
+.footer_list ul::after {
+  content: "";
+  position: absolute;
+  height: 300px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  color: #555;
+  top: 0;
+}
+.footer_list ul li {
+  width: 200px;
+  padding: 20px 0 0 40px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.copyright {
+  float: right;
+  font-size: 5px;
+  font-weight: bold;
+  padding: 10px;
+}

@@ -1,0 +1,258 @@
+.recruit_top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recruit_top ul {
+  display: inline-flex;
+  padding: 50px 0;
+}
+
+.recruit_top li {
+  text-align: center;
+  padding: 50px;
+}
+
+.recruit_top li a {
+  color: #555;
+}
+
+.recruit_top li a:hover {
+  opacity: 0.5;
+}
+
+.recruit_top li small {
+  color: #ff8856;
+}
+
+#recruit_list1,
+#recruit_list2,
+#recruit_list3 {
+  display: inline-block;
+}
+
+.recruit_list {
+  position: relative;
+  width: 100%;
+}
+
+.recruit_list h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #555;
+  line-height: 0.8;
+  padding-bottom: 3%;
+}
+.recruit_item2 h1 {
+  color: crimson;
+  font-size: 40px;
+  text-shadow:10px 10px 0px rgb(255, 177, 177);
+}
+.recruit_item2 h2 {
+  font-size: 25px;
+}
+.recruit_list h2 small {
+  font-size: 12px;
+  color: #ff8856;
+}
+
+
+
+.recruit_list p {
+  width: 100%;
+  font-size: 15px;
+  color: #555;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+
+.recruit_item1 {
+  display:flex;
+  flex-direction: column;
+  width: 95%;
+  height: 600px;
+  top:33%;
+  position:absolute;
+}
+
+.recruit_item2 {
+  text-align: center;
+  background-color:rgba(255, 255, 255,0.9);
+  width: 60%;
+  float: right;
+  
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+.intern {
+  margin-top: 40%;
+  
+  display: inline-block;
+}
+.intern h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 10%;
+}
+.intern h1 span {
+  color: #ff8856;
+}
+
+.intern h1 small {
+  font-size: 20px;
+}
+.member {
+  display: flex;
+  width: 100%;
+}
+.member li {
+  display: inline-flex;
+  align-items: flex-end;
+  width: 25%;
+  height: 540px;
+}
+.member .member1 {
+  text-align: center;
+  margin: auto;
+  background: url(../img/member.png) center center no-repeat;
+  background-size: cover;
+}
+.member_info {
+  position: relative;
+  width: 100%;
+  padding: 35px 45px;
+  background-color: rgba(17, 17, 17, 0.6);
+  color: #fff;
+  overflow: hidden;
+}
+.member_name p {
+  font-size: 25px;
+  line-height: 1;
+  font-weight: normal;
+}
+.member_name p small {
+  font-size: 12px;
+  font-weight: normal;
+}
+.member_department {
+  padding-top: 8px;
+}
+.intern_intro {
+  width: 100%;
+  
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+
+.intro_txt {
+    background: url(../img/intern.png) no-repeat center;
+    width: 100%;
+    background-color:#ff8856;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+    margin-top: 10%;
+    
+}
+.bg_ {
+  background-color: rgba(255, 255, 255,0.4);
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.intro_txt h2 {
+
+  font-size: 30px;
+  line-height: 1;
+  color: rgb(65, 65, 65);
+  margin-bottom: 40px;
+}
+.intro_txt h2 small {
+  color: rgb(122, 122, 0);
+  font-size: 20px;
+  
+}
+.intro_descript {
+  
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: rgb(53, 54, 54);
+}
+.discussion_talk {
+  margin-bottom: 150px;
+  padding: 100px 100px 150px;
+  background-color: #eee;
+}
+.question_list{
+  display: flex;
+  flex-wrap: wrap
+}
+.question_list li {
+  width: calc(100%/3);
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.question_list li img {
+  max-width: 100%;
+  height: auto;
+  border: solid 1px #ccc;
+}
+.question_ttl {
+  font-size: 30px;
+}
+.question_ttl span {
+  color: #ff8856;
+}
+.top_inner3 {
+  width: 100%;
+  position: relative;
+  height: 600px;
+  background-image: url("../img/mini_content_1-1.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.top_inner3 img {
+  
+  width:80%;
+  height: auto;
+}
+.top_title3 {
+  text-shadow: 10px 10px 0px rgb(255, 213, 213);
+  width: 60%;
+  left: 22%;
+  top: 35%;
+  background-color:rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+.top_inner3 h1 {
+  font-size: 70px;
+  color: #ff8856;
+}
+
+.top_inner3 h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.top_inner3 p {
+  font-size: 20px;
+  color: #777;
+  position: relative;
+  top: 50px;
+}
